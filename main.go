@@ -8,11 +8,6 @@ import (
 
 func main() {
 
-	// data := "cat,bird,dog"
-
-	// // Split on comma.
-	// result := strings.Split(data, ",")
-
 	T := []struct {
 		Version string
 		Type    string
@@ -40,7 +35,6 @@ func main() {
 		v1 := TT[1]
 		v2 := TT[2]
 
-		//i1, err := strconv.Atoi(str1)
 		vv0, _ := strconv.Atoi(TT[0])
 		vv1, _ := strconv.Atoi(TT[1])
 		vv2, _ := strconv.Atoi(TT[2])
